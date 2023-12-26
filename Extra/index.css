@@ -1,0 +1,41 @@
+body
+{
+    background-color:red;
+}
+h1
+{
+    color: white;
+}
+#abc
+{
+    text-align: left;
+}
+#def
+{
+    color: white;
+    text-transform: capitalize;
+    padding-left: 50px;
+}
+
+
+#xyz
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+#abc
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+#w123
+{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}

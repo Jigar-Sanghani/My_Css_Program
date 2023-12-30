@@ -1,0 +1,114 @@
+#main {
+    display: flex;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: block;
+    border-radius: 15px;
+    background-color: rgb(146, 255, 255);
+}
+
+#image {
+    height: 150px;
+    margin-left: 13px;
+    display: block;
+}
+
+#pri {
+    margin-top: 0px;
+    margin-left: 35px;
+    display: inline;
+    text-decoration: line-through;
+    color: red;
+}
+
+#total {
+    margin-top: 0px;
+    margin-left: 75px;
+}
+
+#heart {
+    margin-left: 20px;
+}
+
+#cart {
+    display: inline;
+    margin-left: 28px;
+}
+
+#box2 {
+    display: inline;
+    padding-left: 20px;
+}
+
+#test1 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+}
+
+#image1 {
+    height: 100px;
+    display: block;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+#heart1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#pri1 {
+    margin-top: 0px;
+    margin-left: 35px;
+    display: inline;
+    text-decoration: line-through;
+    color: red;
+}
+
+#image2 {
+    height: 60px;
+    display: block;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+#heart2 {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#pri2 {
+    margin-top: 0px;
+    margin-left: 35px;
+    display: inline;
+    text-decoration: line-through;
+    color: red;
+}
+
+#image4 {
+    height: 70px;
+    display: block;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+#heart4 {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+#pri4 {
+    margin-top: 0px;
+    margin-left: 35px;
+    display: inline;
+    text-decoration: line-through;
+    color: red;
+}

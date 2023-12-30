@@ -1,0 +1,53 @@
+#box
+{
+    height: 350px;
+    width: 300px;
+    border: 2px dotted green;
+    border-radius: 5px;
+    background-color: rgb(245, 205, 229);
+}
+
+#img
+{
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+#ml
+{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+#price
+{
+    text-align: center;
+    color: black;
+}
+
+#dis
+{
+    text-decoration: line-through;
+    color: green;
+    text-decoration: underline wavy;
+}
+
+#free
+{
+    text-align: center;
+    color: black;
+}
+
+#qty
+{
+    text-align: center;
+}
+
+#buy
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 110px;
+    color: green;
+    background-color:lightcoral;
+}

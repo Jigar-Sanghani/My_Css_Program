@@ -1,0 +1,158 @@
+#main {
+    display: flex;
+}
+
+#box1 {
+    height: 430px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(209, 210, 210);
+}
+
+#image1 {
+    height: 220px;
+    display: block;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#shous {
+    display: inline;
+    margin-left: 95px;
+}
+
+#nikeinfo {
+    display: block;
+    margin-left: 14px;
+}
+
+#nprice {
+    display: block;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+#star {
+    display: inline;
+    margin-left: 83px;
+}
+
+#Buy {
+    height: 50px;
+    width: 268px;
+    border: 2px solid black;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(62, 184, 209);
+    font: bolder;
+    color: red;
+    text-align: center;
+}
+
+#text {
+    text-align: center;
+}
+
+#shoes {
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    display: block;
+    margin-top: 11px;
+}
+
+#box2 {
+    height: 430px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(209, 210, 210);
+    margin-left: 30px;
+}
+
+#blue
+{
+    height: 150px;
+    display: inline;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+#text1
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#Buy1 {
+    height: 50px;
+    width: 268px;
+    border: 2px solid black;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(62, 184, 209);
+    font: bolder;
+    color: red;
+    text-align: center;
+    margin-top: 7px;
+    
+}
+
+button
+{
+    height: 50px;
+    width: 270px;
+    background-color: rgb(212, 146, 236);
+    color: white;
+    border-radius: 0px 0px 20px 20px ;
+    cursor: pointer;
+}
+#ebuy
+{
+    text-decoration: none;
+}
+
+#box3 {
+    height: 430px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(209, 210, 210);
+    margin-left: 30px;
+}
+
+#image3
+{
+    margin-top: 45px;
+    height: 140px;
+    margin-left: 65px;
+}
+
+#watchtext
+{
+    text-align: center;
+    margin-top: 55px;
+}
+
+#watchtext1
+{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#mobile
+{
+    height: 150px;
+    display: inline;
+    margin-left: 85px;
+    margin-top: 70px;
+}
+
+.by
+{
+    text-decoration: none;
+    color: white;
+}

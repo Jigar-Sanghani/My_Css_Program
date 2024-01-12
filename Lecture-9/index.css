@@ -1,0 +1,73 @@
+#main {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(252, 176, 69, 1) 100%);
+}
+
+#box {
+    background-color: rgb(255, 0, 0);
+    height: 700px;
+    background: rgb(180, 131, 58);
+    background: linear-gradient(90deg, rgba(180, 131, 58, 1) 0%, rgba(156, 252, 69, 1) 100%);
+}
+
+.same
+{
+    margin-top: 30px;
+}
+
+#rel {
+    margin-top: 20px;
+    height: 90px;
+    width: 100px;
+    border: 2px solid palegoldenrod;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-family:cursive;
+}
+
+#ski {
+    margin-top: 20px;
+    height: 90px;
+    width: 100px;
+    border: 2px solid palegoldenrod;
+    border-radius: 10px;
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    color: white;
+    font-family:cursive;
+}
+
+#abs {
+    margin-top: 20px;
+    height: 90px;
+    width: 100px;
+    border: 2px solid palegoldenrod;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: white;
+    font-family:cursive;
+}
+
+#fix {
+    margin-top: 20px;
+    height: 90px;
+    width: 100px;
+    border: 2px solid palegoldenrod;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    color: white;
+    font-family:cursive;
+}

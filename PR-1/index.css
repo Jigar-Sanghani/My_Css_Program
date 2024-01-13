@@ -44,15 +44,41 @@ body
 {
     height: 350px;
     width: 250px;
-    border: 2px solid rgb(183, 129, 230);
-    border-radius: 5px;
-    background-color:bisque;
-    box-shadow: 07px 03px 03px 01px  gold;
+    border: 00px solid;
+    border-radius: 8px;
+    background-color:rgb(254, 207, 145);
+    box-shadow: 04px 02px 00px 00px  rgb(203, 189, 108);
 }
 
-#main
+.main
 {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+}
+
+#product
+{
+    height: 150px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#write
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#button
+{
+    background-color: rgb(174, 216, 136);
+    height: 35.33px;
+    width: 92.25px;
+    font:13.33px Arial;
+    border-radius: 05px;
+    margin-top: 30px;
+    margin-left: 80px;
+    cursor: pointer;
 }

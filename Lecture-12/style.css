@@ -140,7 +140,7 @@
     background-color: #bfe4e4;
 }
 
-.font
+.font1
 {
     height: 28px;
     width: 128px;
@@ -355,6 +355,11 @@
 .font
 {
     color: blueviolet;
+}
+
+.awesome
+{
+    margin-top: 15px;
 }
 
 #mobile

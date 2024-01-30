@@ -40,6 +40,8 @@
 #menu
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     justify-content: space-around;
     #ji
@@ -53,10 +55,12 @@
     }
     #ji:hover
     {
-        color: #6E08FE;
-        font-size:18px ;
-        font-family: sans-serif;
-    
+        border-radius: 07px;
+        padding:5px;
+        background-color:white;
+        color:#771AFB;
+        transform: scale(1.04);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     #get
     {
@@ -71,9 +75,9 @@
     }
     #get:hover
     {
-        font-weight: 500;
-        background-color: white;
-        color: #6E08FE;
+        background-color:white;
+        color:#771AFB ;
+        transform: scale(1.04);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }

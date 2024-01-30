@@ -1,6 +1,8 @@
 body
 {
     background-color:rgb(241, 228, 195);
+    margin:0;
+    padding: 0;
 }
 
 #nav

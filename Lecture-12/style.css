@@ -70,6 +70,7 @@
     }
     #get:hover
     {
+        font-weight: 500;
         background-color: white;
         color: #6E08FE;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -379,6 +380,5 @@
 {
     position: absolute;
     margin-top: 34%;
-    margin-left: 05%;
-    
+    margin-left: 4.5%;
 }

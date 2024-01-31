@@ -23,6 +23,7 @@ body
 {
     height: 80px;
     color: white;
+    cursor: pointer;
 }
 
 #enner-nav
@@ -68,9 +69,9 @@ body
     height: 350px;
     width: 250px;
     border: 00px solid;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color:rgb(254, 207, 145);
-    box-shadow: 04px 02px 00px 00px  rgb(203, 189, 108);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main
@@ -88,6 +89,8 @@ body
     margin-top: 10px;
     padding: 4px;
     transition: all 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 #product:hover

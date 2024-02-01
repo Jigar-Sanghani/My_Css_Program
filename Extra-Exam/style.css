@@ -185,3 +185,36 @@ body
         grid-template-rows: repeat(auto, 600px);
     }
 }
+
+#footer
+{
+    background: #000;
+    height: 5px;
+    width: 100%;
+}
+#ctn
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+#last
+{
+    height: 250px;
+    width: 400px;
+    background: #dbdbdb;
+    position: absolute;
+    left: 40%;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#b
+{
+    margin: 10px;
+    height: 40px;
+    width: 380px;
+}

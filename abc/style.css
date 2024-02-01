@@ -1,0 +1,181 @@
+#navbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    background-color:#2c3e50 ;
+}
+
+.ennernav
+{   
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    padding: 03px;
+    transition: all 0.3s;
+    a
+    {
+        margin-left: 05px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 28px;
+        color: white;
+        transition: all 0.3s;
+    }
+}
+
+.ennernav:hover
+{
+    color: rgb(68, 68, 243);
+    a
+    {
+        color:rgb(68, 68, 243);
+    }
+}
+
+#grid
+{
+    display: grid;
+    margin: 1.5%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,400px);
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.box
+{
+    background-color: white;
+    box-shadow:  rgba(0, 0, 0, 0.24)0px 3px 8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.box:hover 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
+}
+
+.img
+{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boxwrite
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    p
+    {
+        padding-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    i
+    {
+        font-size: 20px;
+    }
+}
+
+.price
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;  
+}
+
+.buy
+{
+    text-align: center;
+    margin-top: 05%;
+    transition: all 0.3s;
+    a
+    {
+        text-decoration:none; 
+        border: 0px;
+        border-radius: 05px;
+        padding: 05px;
+        background-color: #2c3e50;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        transition: all 0.3s;
+    }
+}
+
+.buy:hover
+{
+    a:hover
+    {   
+        background-color: rgb(44, 120, 207);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+#contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    h1
+    {
+        text-align: center;
+    }
+    a
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 70px;
+        text-decoration:none; 
+        border: 0px;
+        border-radius: 05px;
+        padding: 10px;
+        background-color: #2c3e50;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        transition: all 0.3s;
+    }
+    a:hover
+    {   
+        background-color: rgb(44, 120, 207);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px) 
+{
+    #grid 
+    {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto, 400px);
+    }
+}
+
+@media(max-width:767px) and (min-width:200px) 
+{
+    #write 
+    {
+        display: none;
+    }
+
+    #grid 
+    {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 600px);
+    }
+}
